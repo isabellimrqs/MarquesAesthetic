@@ -23,7 +23,7 @@ const catalogoProdutos = [
         nomeProduto:"Yellow Gold Topaz Sky Diamond Bracelet",
         preco: 550.00,
         imagemProduto:"./image/products/product3.jpg",
-        descricaoProduto:"Suggestion: For her Collection: Talisman Warranty: 3 months Material: Silver + Yellow Gold Plating Code: PL00001046 Average Length: Approximately 20 cm Stones: Zirconia ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam, voluptates adipisci est ad natus eius recusandae accusamus delectus corporis consequuntur porro veritatis nesciunt quidem similique voluptate architecto, eum maiores?",
+        descricaoProduto:"Suggestion: For her Collection: Talisman Warranty: 3 months Material: Silver + Yellow Gold Plating Code: PL00001046 Average Length: Approximately 20 cm Stones: Zirconia",
         categoria:"FEMININE",
         mostrarNaHome: true
     },
@@ -36,40 +36,61 @@ const catalogoProdutos = [
         categoria:"JEWELS",
         mostrarNaHome: true
     },
-//     {
-//         codigoProduto: 5,
-//         nomeProduto:"Kit de Brocas e Beats",
-//         preco: 559.99,
-//         imagemProduto:"./image/ferramentas/kit1.jpg",
-//         descricaoProduto:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam, voluptates adipisci est ad natus eius recusandae accusamus delectus corporis consequuntur porro veritatis nesciunt quidem similique voluptate architecto, eum maiores?",
-//         categoria:"WEDDING",
-//         mostrarNaHome: true
-//     },
-//     {
-//         codigoProduto: 6,
-//         nomeProduto:"Kit de Brocas e Beats",
-//         preco: 659.99,
-//         imagemProduto:"./image/ferramentas/kit1.jpg",
-//         descricaoProduto:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam, voluptates adipisci est ad natus eius recusandae accusamus delectus corporis consequuntur porro veritatis nesciunt quidem similique voluptate architecto, eum maiores?",
-//         categoria:"WEDDING",
-//         mostrarNaHome: true
-//     },
-//     {
-//         codigoProduto: 7,
-//         nomeProduto:"Kit de Brocas e Beats",
-//         preco: 759.99,
-//         imagemProduto:"./image/ferramentas/kit1.jpg",
-//         descricaoProduto:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam, voluptates adipisci est ad natus eius recusandae accusamus delectus corporis consequuntur porro veritatis nesciunt quidem similique voluptate architecto, eum maiores?",
-//         categoria:"Home",
-//         mostrarNaHome: true
-//     },
-//     {
-//         codigoProduto: 8,
-//         nomeProduto:"Kit de Brocas e Beats",
-//         preco: 859.99,
-//         imagemProduto:"./image/ferramentas/kit1.jpg",
-//         descricaoProduto:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quibusdam, voluptates adipisci est ad natus eius recusandae accusamus delectus corporis consequuntur porro veritatis nesciunt quidem similique voluptate architecto, eum maiores?",
-//         categoria:"Home",
-//         mostrarNaHome: true
-//     },
+    {
+        codigoProduto: 5,
+        nomeProduto:"Silver Necklace 40 cm",
+        preco: 310.00,
+        imagemProduto:"./image/products/product8.webp",
+        descricaoProduto:"Suggestion: For her Collection: Bracelets Warranty: 3 months Material: Silver Code: PL00001181",
+        categoria:"MASCULINE",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 6,
+        nomeProduto:"Jazz Half Ring in 18k Yellow Gold",
+        preco: 8190.00,
+        imagemProduto:"./image/products/product6.webp",
+        descricaoProduto:"Suggestion: For her Collection: Jazz Material: Yellow gold Code: AN00048733 Width: Approximately 3 mm Stones: Diamond",
+        categoria:"WEDDING",
+        mostrarNaHome: false
+    },
+    {
+        codigoProduto: 7,
+        nomeProduto:"Infinity Silver and Topaz Bracelet",
+        preco: 550.00,
+        imagemProduto:"./image/products/product5.jpg",
+        descricaoProduto:"Collection: Petit Prata Material: Silver Code: PU00016539 Medium Length: approximately 16 cm + 3 cm extender Stones: Topaz",
+        categoria:"FEMININE",
+        mostrarNaHome: false
+    },
+     {
+        codigoProduto: 8,
+        nomeProduto:"Butterfly Silver Studded Earring",
+        preco: 390.00,
+        imagemProduto:"./image/products/product9.jpg",
+        descricaoProduto:"Suggestion: For her Collection: Butterfly Warranty: 3 months Material: Silver Code: BL00001510 Height: approximately 10.5 mm Width: approximately 10.5 mm Stones: Zirconia",
+        categoria:"PRESENTS",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 9,
+        nomeProduto:"Passport Holder in Purple",
+        preco: 250.00,
+        imagemProduto:"./image/products/product10.jpg",
+        descricaoProduto:"Suggestion: For him and for her Collection: Passport Holder Material: Leather Code: DI00005008 Height: 14 cm Average Length: 11 cmuggestion: For her Collection: Butterfly Warranty: 3 months Material: Silver Code: BL00001510 Height: approximately 10.5 mm Width: approximately 10.5 mm Stones: Zirconia",
+        categoria:"ACESSORIES",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 10,
+        nomeProduto:"Love Me Ring 18k Yellow Gold",
+        preco: 6590.00,
+        imagemProduto:"./image/products/product11.jpg",
+        descricaoProduto:"Stones: Diamond Suggestion: For her Profile: Straight Collection: Love Me Material: Yellow gold Code: AN00049073 Width: Approximately 5 mmuggestion: For him and for her Collection: Passport Holder Material: Leather Code: DI00005008 Height: 14 cm Average Length: 11 cmuggestion: For her Collection: Butterfly Warranty: 3 months Material: Silver Code: BL00001510 Height: approximately 10.5 mm Width: approximately 10.5 mm Stones: Zirconia",
+        categoria:"WEDDING",
+        mostrarNaHome: false
+    },
+
  ]
