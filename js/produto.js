@@ -1,10 +1,15 @@
-// import { catalogoProdutos } from "./script.js";
-// import { findItem, carregaProduto } from "./funcoes.js";
+import { ListadeProdutos } from "./dados.js";
+import { findItem, carregaProduto, addCarrinho, cartIndicator} from "./funcoes.js";
+let listaCompras = JSON.parse(localStorage.getItem("carrinho"))
 
-// let Id = localStorage.getItem("IdProd")
+if (listaCompras == null){
+    listaCompras = []
+}
 
-// let item = findItem(catalogoProdutos,Id)
-// carregaProduto(item)
-
+let Id = localStorage.getItem("IdProd")
+let item = findItem(ListadeProdutos,Id)
+carregaProduto(item)
+addCarrinho(listaCompras,item,Id)
+// cartIndicator(listaCompras)
 
 

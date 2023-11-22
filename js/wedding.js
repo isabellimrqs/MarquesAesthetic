@@ -3,14 +3,14 @@ import { carregaProdutos, cartIndicator, handleClick} from "./funcoes.js"; // im
 
 //let listaCompras = JSON.parse(localStorage.getItem("carrinho"))
 
-let homeProducts = ListadeProdutos.filter(produto =>  produto.mostrarNaHome == true)
+let weddingProducts = ListadeProdutos.filter(produto => produto.categoria === "WEDDING")
 
  // lista de produtos filtrada pela categoria home
 let container = document.querySelector(".product_grid") // Seleção do local onde o codigo HTML sera injetado
 
 // função recebe uma lista de produtos e o local onde o HTML será injetado, que será exibida nas paginas
 // cartIndicator(listaCompras)
-carregaProdutos(homeProducts,container);
+carregaProdutos(weddingProducts,container);
 handleClick() // adiciona o click nos cards de produto
 
 // let indicator = document.querySelector(".cart-item-qtd")
