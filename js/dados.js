@@ -86,11 +86,112 @@ export const ListadeProdutos = [
     {
         codigoProduto: 10,
         nomeProduto:"Love Me Ring 18k Yellow Gold",
-        preco: "R$6.590,00",
+        preco:"R$6.590,00",
         imagemProduto:"./image/products/product11.jpg",
         descricaoProduto:"Stones: Diamond Suggestion: For her Profile: Straight Collection: Love Me Material: Yellow gold Code: AN00049073 Width: Approximately 5 mmuggestion: For him and for her Collection: Passport Holder Material: Leather Code: DI00005008 Height: 14 cm Average Length: 11 cmuggestion: For her Collection: Butterfly Warranty: 3 months Material: Silver Code: BL00001510 Height: approximately 10.5 mm Width: approximately 10.5 mm Stones: Zirconia",
         categoria:"WEDDING",
         mostrarNaHome: false
     },
+
+    {
+        codigoProduto: 11,
+        nomeProduto:"Pink Silver Necklace",
+        preco:"R$590,00",
+        imagemProduto:"./image/products/product12.webp",
+        descricaoProduto:"Suggestion: For her Collection: Fresh Warranty: 3 months Material: Silver Code: CL00001452 Average Length: Approximately 40 cm + 2 cm Stones: Light Pink Zirconia",
+        categoria:"JEWELS",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 12,
+        nomeProduto:"Heart Bracelet Yellow Gold and Diamonds",
+        preco:"R$1.390,00",
+        imagemProduto:"./image/products/product13.webp",
+        descricaoProduto:"Stones: Diamond Mesh: Portuguese Links Suggestion: For little ones Collection: Baby Warranty: 12 Material: Yellow gold Code: PU00015975",
+        categoria:"JEWELS",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 13,
+        nomeProduto:"Sky Ring in 925 Silver",
+        preco:"R$594,00",
+        imagemProduto:"./image/products/product14.webp",
+        descricaoProduto:"Suggestion: For her Collection: Sky Prata Material: Silver Code: AN00053331 Width: Approximately 8 mm Stones: Sky Topaz Stones: Colorless Topaz",
+        categoria:"JEWELS",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 14,
+        nomeProduto:"V Pour Elle Women's Perfume 100ml",
+        preco:"R$350,00",
+        imagemProduto:"./image/products/product15.webp",
+        descricaoProduto:"Olfactory Family: Floriental Volume: 100ml Suggestion: For her Warranty: 3 Code: PE00000008",
+        categoria:"FEMININE",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 15,
+        nomeProduto:"Vivara Women's Wallet Salmon Leather",
+        preco:"R$290,00",
+        imagemProduto:"./image/products/product16.webp",
+        descricaoProduto:"Suggestion: For her Collection: Vivara Warranty: 12 months Material: Leather Code: DI00004909 Height: 8.00 cm Width: 1.20 cm Average Length: 11 cm",
+        categoria:"FEMININE",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 16,
+        nomeProduto:"Yellow Gold Bath Gift Box Separator",
+        preco:"R$240,00",
+        imagemProduto:"./image/products/product17.webp",
+        descricaoProduto:"Suggestion: For her Collection: Fashion Warranty: 3 months Material: Silver + Yellow Gold Plating Code: EL00004402",
+        categoria:"PRESENTS",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 17,
+        nomeProduto:"Rose Gold Plated Hamsa Amulet Earring",
+        preco:"R$140,00",
+        imagemProduto:"./image/products/product18.webp",
+        descricaoProduto:"Suggestion: For her Collection: Amulet II Warranty: 3 months Material: Silver Code: BL00001593 Height: Approximately 10mm Width: Approximately 2.0mm",
+        categoria:"PRESENTS",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 18,
+        nomeProduto:"Men's Steel Bracelet",
+        preco:"R$390,00",
+        imagemProduto:"./image/products/product19.webp",
+        descricaoProduto:"Suggestion: For him Collection: Men Warranty: 3 months Code: PL00001668 Average Length: Approximately 19 cm",
+        categoria:"PRESENTS",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 19,
+        nomeProduto:"Black Acetate Square Sunglasses",
+        preco:"R$294,00",
+        imagemProduto:"./image/products/product20.webp",
+        descricaoProduto:"Frame Material: Acetate Protection (UVA/UVB): UVA / UVB Frame Shape: Square Suggestion: For him and for her Material: Acetate Code: OC0000035",
+        categoria:"ACESSORIES",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 20,
+        nomeProduto:"Calvin Klein Black Leather Bracelet",
+        preco:"R$790,00",
+        imagemProduto:"./image/products/product21.webp",
+        descricaoProduto:"Calvin Klein Black Leather Bracelet - 35000416 Code: KC00000027",
+        categoria:"ACESSORIES",
+        mostrarNaHome: false
+    },
+
 
  ]
