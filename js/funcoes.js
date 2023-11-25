@@ -96,7 +96,7 @@ export function listCarrinhoCompras (ListaCarrinhoDeCompras,carrinho){
     ListaCarrinhoDeCompras.forEach(item => {
         let valorTotal = (item.quantidade * item.preco)
         let html =`<li class="cart_item" id="${item.codigoProduto}">
-    <p>${item.nomeProduto}</p>
+        <p>${item.nomeProduto}</p>
     <div class="cart_item_container">
         <input type="number" name="quantidade" id="" value="${item.quantidade}">
         <span class="valorTotal">R$ ${valorTotal}</span>

@@ -41,7 +41,7 @@ export const ListadeProdutos = [
         nomeProduto:"Silver Necklace 40 cm",
         preco: "R$310,00",
         imagemProduto:"./image/products/product8.webp",
-        descricaoProduto:"Suggestion: For her Collection: Bracelets Warranty: 3 months Material: Silver Code: PL00001181",
+        descricaoProduto:"Suggestion: For him Collection: Bracelets Warranty: 3 months Material: Silver Code: PL00001181",
         categoria:"MASCULINE",
         mostrarNaHome: false
     },
@@ -192,6 +192,47 @@ export const ListadeProdutos = [
         categoria:"ACESSORIES",
         mostrarNaHome: false
     },
+
+    {
+        codigoProduto: 21,
+        nomeProduto:"Festina Chronobike Band Pen Black",
+        preco:"R$390,00",
+        imagemProduto:"./image/products/product22.jpeg",
+        descricaoProduto:"Suggestion: For him and for her Collection: Chronobike Material: Metal Code: FC00000049 Height 14 cm",
+        categoria:"ACESSORIES",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 22,
+        nomeProduto:"Black Rhodium Silver Oxford Ring",
+        preco:"R$360,00",
+        imagemProduto:"./image/products/product23.jpg",
+        descricaoProduto:"Suggestion: For him Collection: Oxford Man Material: Silver + Black Rhodium Plating Code: AN00053042 Width: Approximately 5 mm",
+        categoria:"MASCULINE",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 23,
+        nomeProduto:"Pantanal Men's Leather Watch",
+        preco:"R$1.290,00",
+        imagemProduto:"./image/products/product24.webp",
+        descricaoProduto:"Suggestion: For him Collection: Pantanal Warranty: 12 months  Code: VI00000363 Date: Yes Mechanism: Quartz Case Material: Steel Glass Material: Mineral Crystal Bracelet Color: Brown and Blue Chronograph: No Resistance: 10 ATM Case Size: 42 mm Case Color: Brown and Blue",
+        categoria:"MASCULINE",
+        mostrarNaHome: false
+    },
+
+    {
+        codigoProduto: 24,
+        nomeProduto:"Men's Silver Cufflink",
+        preco:"R$650,00",
+        imagemProduto:"./image/products/product25.webp",
+        descricaoProduto:"Suggestion: For him Collection: Vivara Man Warranty: 3 Material: Silver Code: DI00004458 Height: 13 mm",
+        categoria:"MASCULINE",
+        mostrarNaHome: false
+    },
+
 
 
  ]
