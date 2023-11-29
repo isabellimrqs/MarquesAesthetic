@@ -63,7 +63,7 @@ export function addCarrinho(listaCompras,item, id){
             let quantidade = parseInt(document.querySelector("#quantidade").value)
             // Nesta linha, capturamos o valor do input quantidade e convertemos para numero, pois recebemos o valor como string
             //item.quantidade = quantidade   opçao 1 - adicionar a propriedade quantidade ao nosso objeto, e depois fazer o push do item na lista de compras
-            //listaCompras.push(item)
+            listaCompras.push(item)
             listaCompras.push({...item,quantidade}) // opcao 2 - criar um novo objeto com o spread operador, incluindo a propriedade quantidade
             localStorage.setItem("carrinho",JSON.stringify(listaCompras)) // verificar o link https://warcontent.com/localstorage-javascript/#armazenamento-de-objetos-json
             alert("Item adicionado ao carrinho")  
@@ -92,24 +92,26 @@ console.log(soma, quantidade)
 
 
 
-export function listCarrinhoCompras (ListaCarrinhoDeCompras,carrinho){
+export function carrinhoCompras (ListaCarrinhoDeCompras,carrinho){
     ListaCarrinhoDeCompras.forEach(item => {
-        let valorTotal = (item.quantidade * item.preco)
-        let html =`<li class="cart_item" id="${item.codigoProduto}">
-        <p>${item.nomeProduto}</p>
-    <div class="cart_item_container">
-        <input type="number" name="quantidade" id="" value="${item.quantidade}">
-        <span class="valorTotal">R$ ${valorTotal}</span>
-        <i class="bi bi-trash3-fill remove" id="${item.codigoProduto}"></i>
-    </div>
+        console.log(item.quantidade * item.preco)
+        let html =`<li class="cart_item">
+        <img id="cart_img" src="${item.imagemProduto}">
+        <p id="name_product_cart">${item.nomeProduto}</p>
+        <div class="cart_item_container">
+            <input type="number" name="" id="" value="${item.quantidade}">
+            <span>R$${item.quantidade * item.preco}</span>
+            <i class="bi bi-trash3"></i>
+        </div>
+       
     </li>`
     carrinho.innerHTML += html  
     });
 }
 
 export function deletarItem(listaCarrinhoDeCompras,valorTotalQuantidade){
-    let botoesExcluir = document.querySelectorAll(".remove")
-        
+    let botoesExcluir = document.querySelectorAll(".bi.bi-trash3")
+           
         botoesExcluir.forEach( botao =>
         botao.addEventListener("click", (event)=> {
        
