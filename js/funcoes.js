@@ -49,14 +49,14 @@ export function carregaProduto(item){
 
 // Esta função adiciona um item ao carrinho: recebe 2 parametros : o carrinho de compras e o produto que sera adicionado
 export function addCarrinho(listaCompras,item, id){
-    let botaoComprar = document.querySelector("button")
-    botaoComprar.addEventListener("click", ()=> {
+        let botaoComprar = document.querySelector("button")
+        botaoComprar.addEventListener("click", ()=> {
 
-        if(listaCompras.find(item => item.codigoProduto == id)){
-            alert("Item já adicionado ao carrinho. ")
-            let i = listaCompras.findIndex(item => item.codigoProduto == id)
-            listaCompras[i].quantidade += 1
-            localStorage.setItem("carrinho",JSON.stringify(listaCompras))
+            if(listaCompras.find(item => item.codigoProduto == id)){
+                alert("Item já adicionado ao carrinho. ")
+                let i = listaCompras.findIndex(item => item.codigoProduto == id)
+                listaCompras[i].quantidade += 1
+                localStorage.setItem("carrinho",JSON.stringify(listaCompras))
            
 
         } else{
