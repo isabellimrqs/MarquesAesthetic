@@ -8,8 +8,7 @@ if (pedidos == null ){
     pedidos = []
 }
  
- 
-//cartIndicator(listaCarrinhoDeCompras)
+// cartIndicator(listaCarrinhoDeCompras)
 carrinhoCompras(listaCarrinhoDeCompras, htmlItensCarrinho)
 deletarItem(listaCarrinhoDeCompras)
 valorTotalQuantidade(listaCarrinhoDeCompras)
@@ -17,3 +16,4 @@ valorTotalQuantidade(listaCarrinhoDeCompras)
  
 let btn_finalizar = document.querySelector("#finalize")
     btn_finalizar.addEventListener("click", () => gerarPedido(listaCarrinhoDeCompras,pedidos))
+ 
