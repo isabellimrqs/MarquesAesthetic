@@ -171,16 +171,16 @@ a.navitem {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    column-gap: 70px;
+    justify-content: space-evenly;
+    column-gap: 50px;
 
 }
 
 .products_grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    column-gap: 70px;
+    justify-content: space-evenly;
+    column-gap: 50px;
     width: 100%; 
     box-sizing: border-box; 
 }
