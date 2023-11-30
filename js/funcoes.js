@@ -123,7 +123,7 @@ export function deletarItem(listaCarrinhoDeCompras,valorTotalQuantidade){
         listaCarrinhoDeCompras.splice(index,1)
         localStorage.setItem("carrinho",JSON.stringify(listaCarrinhoDeCompras))
         valorTotalQuantidade(listaCarrinhoDeCompras)
-        cartIndicator(listaCarrinhoDeCompras)
+        //cartIndicator(listaCarrinhoDeCompras)
         }))
 }
 
@@ -153,7 +153,7 @@ export function gerarPedido(listaCarrinhoDeCompras,pedidos){
     localStorage.setItem("pedidos",JSON.stringify(pedidos))
     localStorage.removeItem('carrinho')
     localStorage.removeItem('IdProd')
-    alert("compra realizada com sucesso")
+    alert("Compra realizada com sucesso! Obrigada! :)")
     location.reload()
 
     }

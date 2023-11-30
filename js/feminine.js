@@ -9,7 +9,7 @@ let feminineProducts = ListadeProdutos.filter(produto => produto.categoria === "
 let container = document.querySelector(".product_grid") // Seleção do local onde o codigo HTML sera injetado
 
 // função recebe uma lista de produtos e o local onde o HTML será injetado, que será exibida nas paginas
-// cartIndicator(listaCompras)
+ //cartIndicator(listaCompras)
 carregaProdutos(feminineProducts,container);
 handleClick() // adiciona o click nos cards de produto
 

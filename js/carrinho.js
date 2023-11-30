@@ -1,4 +1,4 @@
-import { deletarItem, carrinhoCompras, gerarPedido, valorTotalQuantidade,cartIndicator } from "./funcoes.js"
+import { deletarItem, carrinhoCompras, gerarPedido, valorTotalQuantidade } from "./funcoes.js"
 let listaCarrinhoDeCompras = JSON.parse(localStorage.getItem("carrinho"))
  
 let htmlItensCarrinho = document.querySelector('ul')
@@ -9,7 +9,7 @@ if (pedidos == null ){
 }
  
  
-cartIndicator(listaCarrinhoDeCompras)
+//cartIndicator(listaCarrinhoDeCompras)
 carrinhoCompras(listaCarrinhoDeCompras, htmlItensCarrinho)
 deletarItem(listaCarrinhoDeCompras)
 valorTotalQuantidade(listaCarrinhoDeCompras)
