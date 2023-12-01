@@ -470,23 +470,26 @@ ul{
 
     .cart_item {
         display:flex;
-        gap: 20px;
+        gap: 600px;
         padding:10px 0;
-        border: 1px solid black;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+        border: 2px solid #8b4c6a;
     }
+    
 
+
+    
     #cart_img{
         width: 50px;
         height: 45px;
+        
     }
 
     .cart_item p, .cart_item span, .qtd_price_area span{
-        font-size: 20px;
-        font-family: "Inter", sans-serif;
+        font-size: 17px;
         left: 45px;
     }
 
+   
 
     .cart_item_container {
         display:flex;
@@ -510,6 +513,7 @@ ul{
     .qtd_price_area span{
         margin-right:54px;
     }
+
 
     #address_form {
         margin: 0 auto;
