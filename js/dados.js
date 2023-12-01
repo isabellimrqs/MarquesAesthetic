@@ -29,7 +29,7 @@ export const ListadeProdutos = [
     },
     {
         codigoProduto: 4,
-        nomeProduto:"White Gold Earrings w/ Emeralds and Diamonds",
+        nomeProduto:"White Earrings Emeralds Diamonds",
         preco: 8627.50,
         imagemProduto:"./image/products/product4.jpg",
         descricaoProduto:"Stones: Diamond <br> Rhodium: Yes <br> Average Number of Stones: 4 emeralds and 86 diamonds <br> Suggestion: For her <br> Collection: Classic <br> Warranty: 12 <br> Material: White gold <br> Code: BR00048113 <br> Diamond Rhodium: No <br> Average Number of Stones: 11 diamond stones <br> Collection: Half Alliance Eternity <br> Warranty: 12 months <br> Suggestion: For her <br> Material: Yellow gold <br> Code: AN00051898 <br> Height: Approximately 1 mm ",

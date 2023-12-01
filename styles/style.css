@@ -134,6 +134,7 @@ a.navitem {
     width:100%;
     max-height: 1000px;
     min-height: 200px;
+    
 }
 
 
@@ -239,7 +240,7 @@ a.navitem {
 
 /* FOOTER */
 
-.footer_container{
+/*.footer_container{
     padding: 80px 72px 31px 72px;
     display: flex;
     justify-content: space-between;
@@ -266,7 +267,7 @@ a.navitem {
 .footer-container-2{
     display: flex;
     justify-content: space-between;
-}
+}*/
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -275,7 +276,7 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: #a5597d;
+    background-color: #995474;
     padding: 40px 100px;
 }
 .footer-col{
@@ -469,9 +470,10 @@ ul{
 
     .cart_item {
         display:flex;
-        justify-content:space-between;
-        padding:20px 0;
-        
+        gap: 20px;
+        padding:10px 0;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
     }
 
     #cart_img{
@@ -519,8 +521,6 @@ ul{
 
     }
 
-    
-
 
     .about_us {
         padding: 10px 72px;
@@ -530,7 +530,7 @@ ul{
     .about_us h1{
         font-size: 35px;
         font-family: 'Times New Roman', Times, serif;
-        color: #383737;
+        color: #7f4886;
         text-align:center;
         padding-bottom: 50px;
 
@@ -538,7 +538,7 @@ ul{
 
     .about_us h2 {
         font-family: 'Times New Roman', Times, serif;
-        color: #391e6b;
+        color: #7f4886;
         font-size: 32px;
     }
 
@@ -549,7 +549,6 @@ ul{
         text-align: center;
         text-align: center;
         line-height: 2.0;
-        transition: all 3s;
     }
 
     .about_us .vision {
@@ -558,8 +557,8 @@ ul{
         padding-bottom: 20px;
         text-align: center;
         line-height: 2.0;
-        margin: 0px 0px 0px; 
-        
+        margin: 0px 0px 0px;
+       
 
     }
 
@@ -570,8 +569,13 @@ ul{
         text-align: center;
         text-align: center;
         line-height: 2.0;
-        
 
+    }
+
+    
+
+    .mission_text, .vision_text, .values_text{
+        visibility: hidden;
     }
 
     .img_contacts {
