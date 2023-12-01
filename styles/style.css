@@ -305,7 +305,7 @@ a.navitem {
 
 .title_cart {
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -529,9 +529,11 @@ a.navitem {
 
     }
 
-      
-
-
+   .dados_admin{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+   }
+    
 
 
     
