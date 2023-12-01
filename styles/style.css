@@ -239,7 +239,7 @@ a.navitem {
 
 /* FOOTER */
 
-/* .footer_container{
+.footer_container{
     padding: 80px 72px 31px 72px;
     display: flex;
     justify-content: space-between;
@@ -266,7 +266,7 @@ a.navitem {
 .footer-container-2{
     display: flex;
     justify-content: space-between;
-} */
+}
 .row{
     display: flex;
     flex-wrap: wrap;

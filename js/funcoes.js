@@ -7,7 +7,7 @@ export function carregaProdutos (lista, gridProduto){
         <img class="product_image" src="${item.imagemProduto}" id=${item.codigoProduto}>
         <div class="title_price">
             <p>${item.nomeProduto}</p>
-            <h3>${item.preco}</h3>
+            <h3>R$${item.preco},00</h3>
             </div>
     </a>
 </div>`
@@ -39,7 +39,7 @@ export function carregaProduto(item){
 </div>
 <div class="product_info">
     <h2>${item.nomeProduto}</h2>
-    <span>${item.preco}</span>
+    <span>R$${item.preco},00</span>
     <input type="number" name="" id="quantidade" value="1"> 
     <button>ADD TO CART</button>
     <svg width="30" height="30" viewBox="0 0 45 43" fill="none" xmlns="http://www.w3.org/2000/svg">
