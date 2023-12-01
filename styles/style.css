@@ -148,11 +148,12 @@ a.navitem {
 
 .main_title {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:1.2em;
+    font-size:25px;
     padding-bottom: 100px;
     margin-top: 0px;
     text-align:center;
-    position: relative;
+    position:sticky;
+    color: #383737;
 
 }
 
@@ -238,7 +239,7 @@ a.navitem {
 
 /* FOOTER */
 
-.footer_container{
+/* .footer_container{
     padding: 80px 72px 31px 72px;
     display: flex;
     justify-content: space-between;
@@ -265,7 +266,92 @@ a.navitem {
 .footer-container-2{
     display: flex;
     justify-content: space-between;
+} */
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: rgb(163, 79, 212);
+    padding: 40px 100px;
+}
+.footer-col{
+   width: 22%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: rgb(165, 42, 99);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links2 a{
+    font-size: 22px;
+    margin-left: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color:#bbbbbb ;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links2 a:hover{
+    color: brown;
+    background-color: #ffffff;
+}
+ 
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+ 
+/*--FIM FOOTER--*/
 
 /* PRODUCT PAGE */
 
@@ -535,7 +621,97 @@ a.navitem {
    }
     
 
+   .slider {
+    margin: 0 auto; 
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
 
-    
+.slides {
+    width: 400%;
+    height: 450px;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
 
+.slide {
+    width: 25%;
+    position: relative;
+}
 
+.slide img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #FFF; 
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+.navigation-auto div {
+    border: 2px solid #FFF;
+    padding: 5px; 
+    border-radius: 10px;
+    cursor: pointer; 
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 410px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: #FFF;
+}

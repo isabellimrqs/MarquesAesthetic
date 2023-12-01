@@ -20,7 +20,7 @@ export const ListadeProdutos = [
     },
     {
         codigoProduto: 3,
-        nomeProduto:"Yellow Gold Topaz Sky Diamond Bracelet",
+        nomeProduto:"Gold Topaz Sky Diamond Bracelet",
         preco: 550.00,
         imagemProduto:"./image/products/product3.jpg",
         descricaoProduto:"Suggestion: For her <br> Collection: Talisman <br> Warranty: 3 months <br> Material: Silver + Yellow Gold <br> Plating Code: PL00001046 <br> Average Length: Approximately 20 cm <br> Stones: Zirconia",
@@ -108,7 +108,7 @@ export const ListadeProdutos = [
         nomeProduto:"Heart Bracelet Yellow Gold and Diamonds",
         preco:1390.00,
         imagemProduto:"./image/products/product13.webp",
-        descricaoProduto:"Stones: Diamond Mesh: Portuguese Links Suggestion: For little ones Collection: Baby Warranty: 12 Material: Yellow gold Code: PU00015975",
+        descricaoProduto:"Stones: Diamond <br> Mesh: Portuguese  <br> Suggestion: For little ones  <br> Collection: Baby <br> Warranty: 12 <br> Material: Yellow gold  <br> Code: PU00015975",
         categoria:"JEWELS",
         mostrarNaHome: false
     },
@@ -118,27 +118,27 @@ export const ListadeProdutos = [
         nomeProduto:"Sky Ring in 925 Silver",
         preco:594.00,
         imagemProduto:"./image/products/product14.webp",
-        descricaoProduto:"Suggestion: For her Collection: Sky Prata Material: Silver Code: AN00053331 Width: Approximately 8 mm Stones: Sky Topaz Stones: Colorless Topaz",
+        descricaoProduto:"Suggestion: For her  <br> Collection: Sky  <br> Prata Material: Silver  <br> Code: AN00053331 <br> Width: Approximately 8 mm  <br> Stones: Sky Topaz  <br> Stones: Colorless Topaz",
         categoria:"JEWELS",
         mostrarNaHome: false
     },
 
     {
         codigoProduto: 14,
-        nomeProduto:"V Pour Elle Women's Perfume 100ml",
+        nomeProduto:"Pour Elle Women's Perfume",
         preco:350.00,
         imagemProduto:"./image/products/product15.webp",
-        descricaoProduto:"Olfactory Family: Floriental Volume: 100ml Suggestion: For her Warranty: 3 Code: PE00000008",
+        descricaoProduto:"Olfactory Family: Floriental <br> Volume: 100ml <br> Suggestion: For her <br> Warranty: 3 <br> Code: PE00000008",
         categoria:"FEMININE",
         mostrarNaHome: false
     },
 
     {
         codigoProduto: 15,
-        nomeProduto:"Vivara Women's Wallet Salmon Leather",
+        nomeProduto:"Vivara Women's Wallet Salmon",
         preco:290.00,
         imagemProduto:"./image/products/product16.webp",
-        descricaoProduto:"Suggestion: For her Collection: Vivara Warranty: 12 months Material: Leather Code: DI00004909 Height: 8.00 cm Width: 1.20 cm Average Length: 11 cm",
+        descricaoProduto:"Suggestion: For her <br> Collection: Vivara <br> Warranty: 12 months <br> Material: Leather <br> Code: DI00004909 <br> Height: 8.00 cm <br> Width: 1.20 cm <br> Average Length: 11 cm",
         categoria:"FEMININE",
         mostrarNaHome: false
     },
@@ -148,7 +148,7 @@ export const ListadeProdutos = [
         nomeProduto:"Yellow Gold Bath Gift Box Separator",
         preco:240.00,
         imagemProduto:"./image/products/product17.webp",
-        descricaoProduto:"Suggestion: For her Collection: Fashion Warranty: 3 months Material: Silver + Yellow Gold Plating Code: EL00004402",
+        descricaoProduto:"Suggestion: For her <br> Collection: Fashion <br> Warranty: 3 months <br> Material: Silver + Yellow Gold Plating <br> Code: EL00004402",
         categoria:"PRESENTS",
         mostrarNaHome: false
     },
@@ -158,7 +158,7 @@ export const ListadeProdutos = [
         nomeProduto:"Rose Gold Plated Hamsa Amulet Earring",
         preco:140.00,
         imagemProduto:"./image/products/product18.webp",
-        descricaoProduto:"Suggestion: For her Collection: Amulet II Warranty: 3 months Material: Silver Code: BL00001593 Height: Approximately 10mm Width: Approximately 2.0mm",
+        descricaoProduto:"Suggestion: For her <br> Collection: Amulet II <br> Warranty: 3 months <br> Material: Silver <br> Code: BL00001593 <br> Height: Approximately 10mm <br> Width: Approximately 2.0mm",
         categoria:"PRESENTS",
         mostrarNaHome: false
     },
@@ -168,7 +168,7 @@ export const ListadeProdutos = [
         nomeProduto:"Men's Steel Bracelet",
         preco:390.00,
         imagemProduto:"./image/products/product19.webp",
-        descricaoProduto:"Suggestion: For him Collection: Men Warranty: 3 months Code: PL00001668 Average Length: Approximately 19 cm",
+        descricaoProduto:"Suggestion: For him <br> Collection: Men <br> Warranty: 3 months <br> Code: PL00001668 <br> Average Length: Approximately 19 cm",
         categoria:"PRESENTS",
         mostrarNaHome: false
     },
@@ -178,7 +178,7 @@ export const ListadeProdutos = [
         nomeProduto:"Black Acetate Square Sunglasses",
         preco:294.00,
         imagemProduto:"./image/products/product20.webp",
-        descricaoProduto:"Frame Material: Acetate Protection (UVA/UVB): UVA / UVB Frame Shape: Square Suggestion: For him and for her Material: Acetate Code: OC0000035",
+        descricaoProduto:"Frame Material: Acetate Protection <br> (UVA/UVB): UVA / UVB <br> Frame Shape: Square <br> Suggestion: For him and for her <br> Material: Acetate <br> Code: OC0000035",
         categoria:"ACESSORIES",
         mostrarNaHome: false
     },
@@ -198,7 +198,7 @@ export const ListadeProdutos = [
         nomeProduto:"Festina Chronobike Band Pen Black",
         preco:390.00,
         imagemProduto:"./image/products/product22.jpeg",
-        descricaoProduto:"Suggestion: For him and for her Collection: Chronobike Material: Metal Code: FC00000049 Height 14 cm",
+        descricaoProduto:"Suggestion: For him and for her <br> Collection: Chronobike <br> Material: Metal <br> Code: FC00000049 <br> Height: 14 cm",
         categoria:"ACESSORIES",
         mostrarNaHome: false
     },
@@ -208,7 +208,7 @@ export const ListadeProdutos = [
         nomeProduto:"Black Rhodium Silver Oxford Ring",
         preco:360.00,
         imagemProduto:"./image/products/product23.jpg",
-        descricaoProduto:"Suggestion: For him Collection: Oxford Man Material: Silver + Black Rhodium Plating Code: AN00053042 Width: Approximately 5 mm",
+        descricaoProduto:"Suggestion: For him <br> Collection: Oxford Man <br> Material: Silver + Black Rhodium Plating <br> Code: AN00053042 <br> Width: Approximately 5 mm",
         categoria:"MASCULINE",
         mostrarNaHome: false
     },
@@ -218,7 +218,7 @@ export const ListadeProdutos = [
         nomeProduto:"Pantanal Men's Leather Watch",
         preco:1290.00,
         imagemProduto:"./image/products/product24.webp",
-        descricaoProduto:"Suggestion: For him Collection: Pantanal Warranty: 12 months  Code: VI00000363 Date: Yes Mechanism: Quartz Case Material: Steel Glass Material: Mineral Crystal Bracelet Color: Brown and Blue Chronograph: No Resistance: 10 ATM Case Size: 42 mm Case Color: Brown and Blue",
+        descricaoProduto:"Suggestion: For him <br> Collection: Pantanal <br> Warranty: 12 months <br> Code: VI00000363 <br> Date: Yes <br> Mechanism: Quartz Case",
         categoria:"MASCULINE",
         mostrarNaHome: false
     },
@@ -228,7 +228,7 @@ export const ListadeProdutos = [
         nomeProduto:"Men's Silver Cufflink",
         preco:650.00,
         imagemProduto:"./image/products/product25.webp",
-        descricaoProduto:"Suggestion: For him Collection: Vivara Man Warranty: 3 Material: Silver Code: DI00004458 Height: 13 mm",
+        descricaoProduto:"Suggestion: For him <br> Collection: Vivara Man <br> Warranty: 3 <br> Material: Silver <br> Code: DI00004458 <br> Height: 13 mm",
         categoria:"MASCULINE",
         mostrarNaHome: false
     },
