@@ -42,11 +42,12 @@ export function carregaProduto(item){
     <span>R$${item.preco},00</span>
     <input type="number" name="" id="quantidade" value="1"> 
     <button>ADD TO CART</button>
-                
+    <button id="addToWishlist">WISHLIST</button>
     <p> ${item.descricaoProduto}</p>
 </div>`
     insertProduto.innerHTML = html
 }
+
 
 // Esta função adiciona um item ao carrinho: recebe 2 parametros : o carrinho de compras e o produto que sera adicionado
 export function addCarrinho(listaCompras,item, id){
@@ -54,7 +55,7 @@ export function addCarrinho(listaCompras,item, id){
         botaoComprar.addEventListener("click", ()=> {
 
             if(listaCompras.find(item => item.codigoProduto == id)){
-                alert("Item já adicionado ao carrinho. ")
+                alert("Item already added to cart. ")
                 let i = listaCompras.findIndex(item => item.codigoProduto == id)
                 listaCompras[i].quantidade += 1
                 localStorage.setItem("carrinho",JSON.stringify(listaCompras))
@@ -67,7 +68,7 @@ export function addCarrinho(listaCompras,item, id){
         //listaCompras.push(item)
         listaCompras.push({...item,quantidade}) // opcao 2 - criar um novo objeto com o spread operador, incluindo a propriedade quantidade
         localStorage.setItem("carrinho",JSON.stringify(listaCompras)) // verificar o link https://warcontent.com/localstorage-javascript/#armazenamento-de-objetos-json
-        alert("Item adicionado ao carrinho")  
+        alert("Item added to cart.")  
 
         }
           
@@ -153,7 +154,7 @@ export function gerarPedido(listaCarrinhoDeCompras,pedidos){
     localStorage.setItem("pedidos",JSON.stringify(pedidos))
     localStorage.removeItem('carrinho')
     localStorage.removeItem('IdProd')
-    alert("Compra realizada com sucesso! Obrigada! :)")
+    alert("Purchase made successfully! Tks! :)")
     location.reload()
 
     }
