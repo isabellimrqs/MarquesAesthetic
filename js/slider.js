@@ -5,12 +5,12 @@ setInterval( function() {
     nextImage();
 }, 3000)
 
-//função para passar para a proxima imagem
+// Passa para a proxima imagem
 
 function nextImage() {
     count++; 
 
-    //Faz voltar para a primeira imagem
+    //Volta para a primeira imagem
     if(count > 3) {
         count = 1; 
     }
