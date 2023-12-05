@@ -41,7 +41,7 @@ export function carregaProduto(item){
     <h2>${item.nomeProduto}</h2>
     <span>R$${item.preco},00</span>
     <input type="number" name="" id="quantidade" value="1"> 
-    <button>ADD TO CART</button>
+    <button onclick="alert">ADD TO CART</button>
     
     <p> ${item.descricaoProduto}</p>
 </div>`

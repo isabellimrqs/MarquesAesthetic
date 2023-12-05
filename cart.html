@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module" src="./js/carrinho.js" defer></script>
 </head>
 <body>
-<!--Inicio do Cabeçalhof -->
+<!--Inicio do Cabeçalho -->
 <header>
     <!-- Inicio do Menu de Navegação -->
     <nav id="navbar" class="navbar_container">
@@ -110,7 +112,7 @@
     <h2><br>Delivery Adress</h2>
     <form action="" id="address_form">
         <label for="name">Full name:</label>
-        <input type="text" id="nome" name="name">
+        <input type="text" id="nome" name="name" required>
         <label for="logradouro">Street:</label>
         <input type="text" id="logradouro" name="logradouro">
         <label for="Cidade">Complement:</label>
@@ -177,9 +179,11 @@
                 </div>
             </div>
         </div>
-    </footer>
-    
-
+        <div class="gtranslate_wrapper"></div>
+        <script>window.gtranslateSettings = {"default_language":"en","languages":["en","es","pt","de"],"wrapper_selector":".gtranslate_wrapper","flag_size":16,"alt_flags":{"en":"usa","pt":"brazil","es":"mexico"}}</script>
+        <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
+        </footer>
+       
 
 </body>
 </html>
