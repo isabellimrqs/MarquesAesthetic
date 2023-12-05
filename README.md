@@ -1,5 +1,5 @@
 # MarquesAesthetic
-E-commerce de jóias para projeto integrador primeiro semestre 
+E-commerce para Projeto Integrador do 1º semestre
 
 ![image](https://github.com/isabellimrqs/MarquesAesthetic/assets/101362239/81a3779a-e3b9-4f9a-8ff2-188c644c0048)
 
