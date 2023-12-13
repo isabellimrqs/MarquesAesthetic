@@ -122,13 +122,47 @@
         <label for="cidade">City:</label>
         <input type="text" id="complemento" name="complemento">
         <label for="estado">State:</label>
-        <input type="text" id="estado" name="estado">
-        <label for="estado"><br>ZIP code:</label>
+        <select name="estado" id="estados">
+            <option value="acre">Acre</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="amapa">Amapá</option>
+            <option value="amazonas">Amazonas</option>
+            <option value="bahia">Bahia</option>
+            <option value="ceara">Ceará</option>
+            <option value="esp.sant">Espiríto Santo</option>
+            <option value="goias">Goiás</option>
+            <option value="maranhao">Maranhão</option>
+            <option value="mato grosso">Mato Grosso</option>
+            <option value="minas gerais">Minas Gerais</option>
+            <option value="para">Pará</option>
+            <option value="paraiba">Paraíba</option>
+            <option value="parana">Paraná</option>
+            <option value="pernanbuco">Pernambuco</option>
+            <option value="piaui">Piauí</option>
+            <option value="rio de janeiro">Rio de Janeiro</option>
+            <option value="rio grande do norte">Rio Grande do Norte</option>
+            <option value="rio grande do sul">Rio Grande do Sul</option>
+            <option value="rondonia">Rondônia</option>
+            <option value="roraima">Roraima</option>
+            <option value="santa catarina">Santa Catarina</option>
+            <option value="sao paulo">São Paulo</option>
+            <option value="sergipe">Sergipe</option>
+            <option value="tocantins">Tocantins</option>
+            <option value="distrito federal">Distrito Federal</option>
+           </select>
+        <label for="cep"><br>ZIP code:</label>
         <input type="text" id="CEP" name="CEP">
         <label for="telefone">Phone:</label>
         <input type="text" id="telefone" name="telefone">
         <label for="e-mail">Email:</label>
         <input type="text" id="email" name="email">
+
+        <div class="payment_method">
+        <h2><br>Payment Method</h2>
+            <input type="radio" name="cartao" value="debit"><label for="debit">Debit Card</label><br>
+            <input type="radio" name="cartao" value="credit"><label for="credit">Credit Card</label>
+        </div>
+
     </form>
     </div>
     <div class="btn_area">
